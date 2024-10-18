@@ -1,7 +1,6 @@
 ﻿namespace Tests;
 
 [UnitTest]
-[UsesVerify]
 public class MainTests
 {
 

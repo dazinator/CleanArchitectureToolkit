@@ -11,7 +11,7 @@ on:
 #    branches: [ master, develop ]
 
 env:
-  DEPLOY_DOCS: false
+  DEPLOY_DOCS: true
   
 jobs:
   calculate-variables:
@@ -164,7 +164,7 @@ jobs:
 
       - name: Publish new stable or latest version of docs to gh-pages branch
         env:
-          SITE_URL: https://dazinator.github.io/[Project-Name]/ 
+          SITE_URL: https://dazinator.github.io/CleanArchitectureToolkit/ 
        
         run: |
           git config user.name ci-bot
